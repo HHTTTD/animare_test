@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์สวยงาม</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script type="importmap">
+    {
+        "imports": {
+            "animejs": "https://esm.sh/animejs@4.0.0"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">✨ Modern Web</div>
+            <ul class="nav-menu">
+                <li><a href="#home">หน้าแรก</a></li>
+                <li><a href="#about">เกี่ยวกับ</a></li>
+                <li><a href="#services">บริการ</a></li>
+                <li><a href="#contact">ติดต่อ</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="gradient-text">ยินดีต้อนรับ</span>สู่เว็บไซต์ที่สวยงาม
+            </h1>
+            <p class="hero-subtitle">สร้างประสบการณ์การใช้งานที่ยอดเยี่ยมด้วยดีไซน์ที่ทันสมัย</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">เริ่มใช้งาน</button>
+                <button class="btn btn-secondary">เรียนรู้เพิ่มเติม</button>
+            </div>
+        </div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="about" class="features">
+        <div class="container">
+            <h2 class="section-title">คุณสมบัติเด่น</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">🚀</div>
+                    </div>
+                    <h3>เร็วและมีประสิทธิภาพ</h3>
+                    <p>โหลดเร็วและใช้งานได้อย่างราบรื่นบนทุกอุปกรณ์</p>
+                    <div class="feature-decoration"></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">🎨</div>
+                    </div>
+                    <h3>ดีไซน์สวยงาม</h3>
+                    <p>อินเตอร์เฟซที่ทันสมัยและใช้งานง่าย</p>
+                    <div class="feature-decoration"></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">📱</div>
+                    </div>
+                    <h3>รองรับทุกอุปกรณ์</h3>
+                    <p>ปรับตัวได้อัตโนมัติบนทุกขนาดหน้าจอ</p>
+                    <div class="feature-decoration"></div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">🔒</div>
+                    </div>
+                    <h3>ปลอดภัย</h3>
+                    <p>ปกป้องข้อมูลของคุณด้วยระบบความปลอดภัยระดับสูง</p>
+                    <div class="feature-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Playground -->
+    <section id="interactive" class="interactive">
+        <div class="container">
+            <div class="interactive-headline">
+                <h2 class="section-title">ทดลองลากดู!</h2>
+                <p>เล่นกับวัตถุ 5 มิติสุดล้ำ ลากเพื่อหมุนและดูเอฟเฟกต์แบบ real-time</p>
+            </div>
+            <div class="drag-playground">
+                <div class="drag-square drag-square-1"></div>
+                <div class="drag-square drag-square-2"></div>
+                <div class="drag-square drag-square-3"></div>
+            </div>
+            <div class="interactive-drag-layer">
+                <div class="free-drag free-drag-1"></div>
+                <div class="free-drag free-drag-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Draggable Outside Section -->
+    <div class="free-drag free-drag-3" data-state="expanded">
+        <div class="free-drag-topbar">
+            <div class="free-drag-handle" aria-label="ลากกล่องบันทึก">
+                <span class="handle-dots"></span>
+            </div>
+            <button class="free-drag-toggle" type="button" aria-label="พับเก็บ Quick Notes">
+                <span class="toggle-icon">–</span>
+            </button>
+        </div>
+        <div class="free-drag-content">
+            <h4>Quick Notes</h4>
+            <p class="free-drag-subtitle">พิมพ์สิ่งที่อยากจำได้เลย</p>
+            <textarea placeholder="จดบันทึกอะไรสักอย่าง..." spellcheck="false"></textarea>
+            <button type="button" class="free-drag-clear">ล้างข้อความ</button>
+        </div>
+        <div class="free-drag-resize" aria-label="Resize note"></div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">บริการของเรา</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-number">01</div>
+                    <h3>Web Development</h3>
+                    <p>พัฒนเว็บไซต์ที่ทันสมัยและมีประสิทธิภาพ</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">02</div>
+                    <h3>UI/UX Design</h3>
+                    <p>ออกแบบประสบการณ์ผู้ใช้ที่ยอดเยี่ยม</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-number">03</div>
+                    <h3>Mobile Apps</h3>
+                    <p>สร้างแอปพลิเคชันมือถือสำหรับ iOS และ Android</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">ติดต่อเรา</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@example.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h4>โทรศัพท์</h4>
+                            <p>+66 XX XXX XXXX</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>ที่อยู่</h4>
+                            <p>กรุงเทพมหานคร, ประเทศไทย</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="ชื่อของคุณ" required>
+                    <input type="email" placeholder="อีเมลของคุณ" required>
+                    <textarea placeholder="ข้อความของคุณ" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">ส่งข้อความ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Modern Web. สงวนลิขสิทธิ์.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+{
+  "name": "modern-web",
+  "version": "1.0.0",
+  "description": "เว็บไซต์สวยงามพร้อม Anime.js",
+  "main": "script.js",
+  "scripts": {},
+  "keywords": [
+    "website",
+    "javascript",
+    "modern",
+    "animejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "animejs": "^4.0.0"
+  }
+}
+
